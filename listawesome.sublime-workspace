@@ -16,10 +16,13 @@
 			}
 		},
 		{
+			"contents": "<template name=\"submitList\">\n	{{> quickForm collection=\"Lists\" id=\"insertListForm\" type=\"insert\"}}\n</template>\n",
 			"file": "client/submit_list.html",
+			"file_size": 110,
+			"file_write_time": 1439318079000000,
 			"settings":
 			{
-				"buffer_size": 110,
+				"buffer_size": 111,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,7 +30,15 @@
 			"file": "lib/router.js",
 			"settings":
 			{
-				"buffer_size": 381,
+				"buffer_size": 370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/list_view.html",
+			"settings":
+			{
+				"buffer_size": 40,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +62,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 562.0
 	},
 	"console":
 	{
@@ -103,7 +114,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -138,15 +149,15 @@
 					"file": "client/submit_list.html",
 					"settings":
 					{
-						"buffer_size": 110,
+						"buffer_size": 111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								111,
+								111
 							]
 						],
 						"settings":
@@ -164,15 +175,15 @@
 					"file": "lib/router.js",
 					"settings":
 					{
-						"buffer_size": 381,
+						"buffer_size": 370,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								143,
+								143
 							]
 						],
 						"settings":
@@ -181,13 +192,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 153.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "client/list_view.html",
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "client/reading_list_item.html",
 					"settings":
 					{

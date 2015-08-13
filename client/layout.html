@@ -1,3 +1,14 @@
 <template name="layout">
-	{{> yield}}
+	{{> navbar}}
+	<div class="yield-container" style="margin: 25px">
+		{{> yield}}
+	</div>
+</template>
+
+<template name="navbar">
+	<div class="navbar navbar-default">
+		<button class="navbar-btn">
+			{{> loginButtons}}
+		</button>
+	</div>
 </template>
