@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/daniel/Desktop/workspace/meteor/list-awesome"
+		}
+	],
+	// ternjs object
+	"ternjs": {
+		"libs": ["browser", "underscore", "jquery"],
+		"exclube": [".meteor/**", "node_modules/**"],
+		"pluggins": {
+			"meteor": {}
+		}
+	}
+}
