@@ -1,6 +1,6 @@
 <template name="createList">
 	{{#if currentUser}}
-		{{> quickForm collection="Lists" id="insertListForm" omitFields="listAuthor" type="insert"}}
+		{{> quickForm collection="Lists" id="insertListForm" omitFields="listAuthorId, listAuthor, books" type="insert"}}
 	{{else}}
 		<p>Error! Only registered users can create new lists.</p>
 		<p>Please log into your account to create a new list.</p>

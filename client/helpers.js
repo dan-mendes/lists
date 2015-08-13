@@ -3,3 +3,9 @@ Template.lists.helpers({
 		return Lists.find();
 	}
 });
+
+Template.listsItem.helpers({
+	author: function() {
+		return this.username;
+	}
+});

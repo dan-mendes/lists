@@ -12,4 +12,5 @@ aldeed:autoform
 aldeed:collection2
 twbs:bootstrap
 accounts-password
-accounts-ui
+msavin:mongol
+ian:accounts-ui-bootstrap-3
