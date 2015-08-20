@@ -8,29 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "lib/collections.js",
+			"file": "client/create_list.html",
 			"settings":
 			{
-				"buffer_size": 708,
+				"buffer_size": 317,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<template name=\"submitList\">\n	{{> quickForm collection=\"Lists\" id=\"insertListForm\" type=\"insert\"}}\n</template>\n",
-			"file": "client/submit_list.html",
-			"file_size": 110,
-			"file_write_time": 1439318079000000,
+			"file": "client/environment.js",
 			"settings":
 			{
-				"buffer_size": 111,
+				"buffer_size": 117,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "lib/router.js",
+			"file": "client/add_book.html",
 			"settings":
 			{
-				"buffer_size": 370,
+				"buffer_size": 107,
 				"line_ending": "Unix"
 			}
 		},
@@ -38,15 +35,63 @@
 			"file": "client/list_view.html",
 			"settings":
 			{
-				"buffer_size": 40,
+				"buffer_size": 253,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "client/reading_list_item.html",
+			"file": "client/book_item.html",
 			"settings":
 			{
-				"buffer_size": 127,
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/lists.html",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/helpers.js",
+			"settings":
+			{
+				"buffer_size": 456,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/router.js",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/collections.js",
+			"settings":
+			{
+				"buffer_size": 903,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/layout.html",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/list_item.html",
+			"settings":
+			{
+				"buffer_size": 180,
 				"line_ending": "Unix"
 			}
 		}
@@ -54,15 +99,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 290.0,
+		"height": 369.0,
 		"selected_items":
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
+				"Package Control: Disable Package"
 			]
 		],
-		"width": 562.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -79,6 +124,7 @@
 	},
 	"file_history":
 	[
+		"/home/daniel/Desktop/workspace/meteor/list-awesome/client/list_item.html",
 		"/home/daniel/Desktop/workspace/meteor/list-awesome/listawesome.sublime-project"
 	],
 	"find":
@@ -97,6 +143,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"username"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -114,68 +161,15 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/collections.js",
+					"file": "client/create_list.html",
 					"settings":
 					{
-						"buffer_size": 708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								635,
-								635
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "client/submit_list.html",
-					"settings":
-					{
-						"buffer_size": 111,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								111,
-								111
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "lib/router.js",
-					"settings":
-					{
-						"buffer_size": 370,
+						"buffer_size": 317,
 						"regions":
 						{
 						},
@@ -188,8 +182,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -198,19 +191,45 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "client/list_view.html",
+					"buffer": 1,
+					"file": "client/environment.js",
 					"settings":
 					{
-						"buffer_size": 40,
+						"buffer_size": 117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28,
-								28
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/add_book.html",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
 							]
 						],
 						"settings":
@@ -224,19 +243,204 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "client/reading_list_item.html",
+					"buffer": 3,
+					"file": "client/list_view.html",
 					"settings":
 					{
-						"buffer_size": 127,
+						"buffer_size": 253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								104
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/book_item.html",
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/lists.html",
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/helpers.js",
+					"settings":
+					{
+						"buffer_size": 456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/router.js",
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "lib/collections.js",
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "client/layout.html",
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "client/list_item.html",
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
 							]
 						],
 						"settings":
